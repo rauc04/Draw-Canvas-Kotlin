@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
-    lateinit var canvas: Canvas
+    lateinit var canvas: DrawCanvas
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        canvas = Canvas(this)
+        canvas = DrawCanvas(this)
         setContentView(canvas)
     }
 }

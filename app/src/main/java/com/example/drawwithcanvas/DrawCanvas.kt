@@ -8,7 +8,7 @@ import android.graphics.Paint
 import android.view.MotionEvent
 import android.view.View
 
-class Canvas(context: Context) : View(context) {
+class DrawCanvas(context: Context) : View(context) {
     lateinit var paint: Paint
     var xPositionOne: Float = 0f
     var yPositionOne: Float = 0f
